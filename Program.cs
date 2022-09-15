@@ -1,3 +1,18 @@
-﻿double numberA = 10;
-double numberB = 5;
-Console.WriteLine(numberA / numberB);
+﻿internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Введите имя пользователя: ");
+        string username = Console.ReadLine();
+
+        if (username == "Маша") ;
+        {
+            Console.WriteLine("Ура, это же МАША");
+        }
+else
+        {
+            Console.Write("Привет, ");
+            Console.WriteLine(username);
+        }
+    }
+}
